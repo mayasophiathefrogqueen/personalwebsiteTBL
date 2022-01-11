@@ -1,0 +1,86 @@
+body {
+    margin: 0; 
+    padding-top: 800px;
+    text-align: center;
+}
+.profile {
+    border-radius: 15%;
+    margin-top: 80px;
+    margin-bottom: 50px; 
+}
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient( #e65757 0%, #f0e0ad 50%, #ade1f0 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+h1 {
+    font-size: 40px; 
+    font-family: 'Gaegu', cursive;
+    }
+#bio {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    padding: 50px ; 
+    text-align: center;
+font-size: 20px;}
+.parallax-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menu {
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    background: peachpuff;
+    width: 100%;
+    margin-top: 0px;
+}
+.links {
+    display: inline;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.links: :hover {
+    font-size:25px;
+    text-decoration: underline;
+}
+#name {
+    font-size: 50px;
+    font-family: 'Gaegu', cursive;
+}
+h2 {
+    font-family: 'Gaegu', cursive;
+}
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+a {text-decoration: none;}
+
+#writings a {
+    text-decoration: underline !important;
+    color: rgb(146, 190, 146) !important;
+}
+
+#contact {
+    background: lightgrey;
+}
+#contact iframe {
+    width: 100%;
+}
+.contact_1 h3 {
+    display: inline;
+}
